@@ -7,7 +7,7 @@ if (os.path.exists(uvm_name)):  # if project file exist, delete it
     os.system('rm -r '+uvm_name)
 os.system('cp -r uvm_temp '+uvm_name) # copy template to new file
 
-def file_gen(file_name,replace_words):
+def file_gen(file_name,replace_words):  #replace file words with replace_words
     test = open(file_name,'r').read()
     test_new = open(file_name,'w')
     for word in replace_words:
