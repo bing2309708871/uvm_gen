@@ -32,3 +32,14 @@ class packet_sequence extends uvm_sequence #(packet);
     endtask: body
 
 endclass: packet_sequence
+
+// ---format for uvm_do-------
+
+// `uvm_do(SEQ_OR_ITEM)
+// `uvm_do_pri(SEQ_OR_ITEM, PRIORITY)
+// `uvm_do_with(SEQ_OR_ITEM, CONSTRAINTS)
+// `uvm_do_pri_with(SEQ_OR_ITEM, PRIORITY, CONSTRAINTS)
+// `uvm_do_on(SEQ_OR_ITEM, SEQR)
+// `uvm_do_on_pri(SEQ_OR_ITEM, SEQR, PRIORITY)
+// `uvm_do_on_with(SEQ_OR_ITEM, SEQR, CONSTRAINTS)
+// `uvm_do_on_pri_with(SEQ_OR_ITEM, SEQR, PRIORITY, CONSTRAINTS)

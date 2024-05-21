@@ -1,7 +1,7 @@
 import os
 
-uvm_name = 'CROSSBAR_UVM'   # input project name
-vif_name = 'crossbar_if'    # input virtual interface name
+uvm_name = 'cache_msi'   # input project name
+vif_name = 'cache_if'    # input virtual interface name
 
 if (os.path.exists(uvm_name)):  # if project file exist, delete it
     os.system('rm -r '+uvm_name)

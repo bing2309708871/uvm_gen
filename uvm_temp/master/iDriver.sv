@@ -41,6 +41,7 @@ class iDriver extends uvm_driver #(packet);
     
     virtual task reset();
         `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH);
+        // set input as 0
         //wait(vif.rst_n == 1'b1);
     endtask:reset
     
